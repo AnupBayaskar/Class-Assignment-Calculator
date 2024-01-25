@@ -1,0 +1,97 @@
+.container{
+    background-color: black;
+    width: 1000px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    margin: 10px auto;
+    /* background-color: rgb(237, 110, 64); */
+}
+.result{
+
+    height: 40px;
+    width: auto;
+    margin-top: 40px;
+    text-align: center;
+    margin: 10px auto;
+ margin-left: 50px;
+ margin-right: 50px;   
+}
+.inputFields{
+    text-align: center;
+    margin: 45px;
+    margin-top: 20px;
+}
+
+.shadow__btn {
+    display: inline;
+    margin: 25px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    font-size: 17px;
+    color: #fff;
+    border-radius: 7px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.5s;
+    transition-property: box-shadow;
+  }
+  
+  .shadow__btn {
+    color: black;
+    background: rgb(251, 252, 252);
+    box-shadow: 0 0 25px rgb(0, 221, 255);
+  }
+  
+  .shadow__btn:hover {
+    background:linear-gradient(to left,rgb(0, 217, 255),rgb(36, 36, 40));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    box-shadow: 0 0 5px rgb(4, 4, 4),
+                0 0 25px rgb(19, 183, 237),
+                0 0 50px rgb(10, 200, 253),
+                0 0 50px rgb(38, 174, 220);
+  }
+label{
+  padding: 5px;
+   background:linear-gradient(to left,rgb(0, 217, 255),rgb(107, 107, 118));
+   -webkit-text-fill-color: transparent;
+   -webkit-background-clip: text;
+   box-shadow: 0 0 5px rgb(4, 4, 4),
+               0 0 25px rgb(19, 183, 237),
+               0 0 50px rgb(10, 200, 253),
+               0 0 50px rgb(38, 174, 220);
+ font-size: larger;
+   font-weight: bold;
+}
+.field {
+    background-color: rgb(245, 248, 250);
+    border: 2px solid rgb(7, 7, 6);
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 15px;
+}
+#rslt{
+    background:linear-gradient(to left,rgb(0, 217, 255),rgb(114, 114, 126));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 28px;
+}
+#resultValue{
+    border: 2px solid #f6f9f7;
+      padding: 10px;
+    font-size: 28px;
+}
+#rst{
+    margin-left: 40%;}
+    .calci{
+         height: 40px;
+            width: auto;
+            margin-top: 40px;
+            text-align: center;
+            margin: 10px auto;
+         margin-left: 50px;
+         margin-right: 50px;   
+        }
+    
