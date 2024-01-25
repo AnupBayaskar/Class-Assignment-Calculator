@@ -12,9 +12,11 @@ addbtn.addEventListener('click', () => {
     const valueTwo = +fieldTwo.value;
     const result = valueOne + valueTwo;
     if (result < 0) {
-        resultValue.innerHTML = resultValue.style.color='red'
+        resultValue.innerHTML = resultValue.style.color='red';
+        resultValue.style.borderColor = 'red';
     } else {
-       resultValue.innerHTML = resultValue.style.color='green' 
+       resultValue.innerHTML = resultValue.style.color='green'; 
+       resultValue.style.borderColor = 'green';
     }
     console.log(valueOne + valueTwo);
     // alert(` Addition is: ${valueOne + valueTwo}`);
@@ -42,7 +44,9 @@ multbtn.addEventListener('click',()=>{
     const result = valueOne*valueTwo;
     if (result < 0) {
         resultValue.innerHTML = resultValue.style.color='red'
+        resultValue.style.borderColor = 'red';
     } else {
+        resultValue.style.borderColor = 'green';
        resultValue.innerHTML = resultValue.style.color='green' 
     }
     resultValue.innerHTML = result
@@ -53,8 +57,10 @@ divbtn.addEventListener('click',()=>{
     const result = valueOne/valueTwo;
     if (result < 0) {
         resultValue.innerHTML = resultValue.style.color='red'
+        resultValue.style.borderColor = 'red';
     } else {
        resultValue.innerHTML = resultValue.style.color='green' 
+       resultValue.style.borderColor = 'green';
     }
     if (result=='Infinity') {
         resultValue.innerHTML= 'Cannot Divisible By 0'
@@ -63,3 +69,10 @@ divbtn.addEventListener('click',()=>{
         resultValue.innerHTML = result
     }
 }) 
+
+    resetbtn.addEventListener('click', ()=>{
+        fieldOne.value="";
+        fieldTwo.value="";
+        resultValue.innerHTML ="";
+        resultValue.style.borderColor = 'white';
+    });
