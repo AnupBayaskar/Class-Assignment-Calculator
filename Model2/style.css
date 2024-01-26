@@ -1,0 +1,37 @@
+.container{
+    background: cadetblue;
+    border: 5px solid black;
+    padding: 10px;
+    max-width: 256px;
+  margin: 0 auto;
+}
+h2{
+    margin-left: 8px;
+    font-size:large;
+}
+.display{
+    overflow: hidden;
+    width: 250px;
+    font-size: 25px;
+    color: rgb(252, 252, 252);
+    height: 35px;
+    background-color: rgb(35, 74, 75);
+    padding: 3px;
+}
+button{
+    border-radius: 20px;
+    margin: 0.5px;
+    margin-bottom: 4px;
+    width:60px;
+    padding: 15px;
+}
+button:hover{
+    background: rgb(205, 213, 213);
+    border-color: black;
+   
+}
+@media screen and (min-width: 256px) {
+    .container {
+      width: 80%;
+    }
+  }
